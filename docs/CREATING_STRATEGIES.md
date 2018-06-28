@@ -8,14 +8,14 @@ const getToken = ({requestHeaders, params}) => {
 }
 
 module.exports = (context, options, callback) => {
-  const accessToken = getToken(context);
-  if (!accessToken) {
+  const access_token = getToken(context);
+  if (!access_token) {
     callback(new Error('No access token found'));
   }
   // validate token...
   // decode user information...
-  callback(null, { user, accessToken });
+  callback(null, { user, access_token });
 }
 ```
 
-You must call the callback method with either an error, or an object providing a `user` and the original `accessToken` found in the request. The strategy may be asynchronous allowing for calls to external services or apis for assistance.
+You must call the callback method with either an error, or an object providing a `user` and the original `access_token` found in the request. The strategy may be asynchronous allowing for calls to external services or apis for assistance.
