@@ -2,3 +2,10 @@ language: node_js
 matrix:
   include:
   - node_js: '8'
+deploy:
+  provider: npm
+  email: 'dmistry@opentable.com'
+  api_key:
+    secure: WuzU5gwi2+5nvBODEOMuZiHzTHgDC8tDZTglumtK9zH/o2j8IjNC4KLH3YcVu0K9xf2UwZrmULlUaTZocH1dtOwc5Gm6cmUlj0+rU0+Orsik3qK8pyJT9fdCPnv5xWJtetcJAXf5K9UHQHFccKrXZKi23ZqQbc4AKMxNMHJfKwjMk9zh7CwNoCC9GULVBe7uuyGQgDZBLyNn4pImXSPrtNF654uHZFVPpAeEedRYwAal98d5ci5H3b4EZuAoxq7xKP68mup0KStBah6T//sX6d77WtgJ5sMc7pAqf5xTT+xXUZEtTrQDLB7vvUORpKTZdgIe7GVcCB5hwTbw5wlgfTnIX5+tgK0Nsz+63NIsWnsmeZUimg2ygJ8Pd7ywEa7OSXCLvBGMkv/5kflxDc6JWMwJ73i4ScZRS5NtSQ6M1QgQBZN2H/2gJtzVlRzbKu0S622IpCNHry5XR2nbgojN2mhRFSurT6e9PgAE7QmKTVEyEXCnDFV4CFj8vLDHZbQJ6k7MLmcJglr+o5VxloYGat9iSyTQyHaLWkT/IMIztuNdCUQX1l2rnTl0KLYL0/gONPUA92DJWQ+/fbH76+zrQ0rj/Gpzp6nhomLEWgDryIb/FQr7q6jBqhsXENK92fk79tTTJdpvlNX16/qVTeZKyJwlbNT10lSRL7iasiwZadg=
+  on:
+    repo: opencomponents/oc-plugin-authenticate
