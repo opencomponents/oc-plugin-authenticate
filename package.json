@@ -1,0 +1,32 @@
+{
+  "name": "oc-plugin-authenticate",
+  "version": "1.0.0",
+  "description": "OpenComponents Plugin for authenticating requests",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opencomponents/oc-plugin-authenticate.git"
+  },
+  "keywords": [
+    "opencomponents",
+    "oc",
+    "authentication",
+    "authenticate",
+    "plugin",
+    "oc-plugin"
+  ],
+  "author": "Dipun Mistry <dipunm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opencomponents/oc-plugin-authenticate/issues"
+  },
+  "homepage": "https://github.com/opencomponents/oc-plugin-authenticate#readme"
+}
