@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/opencomponents/oc-plugin-authenticate/issues"
   },
-  "homepage": "https://github.com/opencomponents/oc-plugin-authenticate#readme"
+  "homepage": "https://github.com/opencomponents/oc-plugin-authenticate#readme",
+  "dependencies": {
+    "jest": "^23.2.0"
+  }
 }
