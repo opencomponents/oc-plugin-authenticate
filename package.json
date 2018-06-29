@@ -1,6 +1,6 @@
 {
   "name": "oc-plugin-authenticate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "OpenComponents Plugin for authenticating requests",
   "main": "index.js",
   "directories": {
@@ -29,7 +29,8 @@
     "url": "https://github.com/opencomponents/oc-plugin-authenticate/issues"
   },
   "homepage": "https://github.com/opencomponents/oc-plugin-authenticate#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "jest": "^23.2.0"
   }
 }
